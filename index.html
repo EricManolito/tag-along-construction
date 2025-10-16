@@ -7,18 +7,10 @@
     <link href="/src/index.css" rel="stylesheet">
 
   </head>
-  <body>
-    <nav class="border-black border-2 border-solid bg-teal-300 md:mt-4 rounded-xl md:container md:mx-auto">
+  <body class="bg-gray-300 ">
+    <nav class="border-black border-2 border-solid bg-teal-400 md:mt-4 rounded-xl md:container md:mx-auto mb-2">
       <div class="flex flex-wrap items-center justify-between mx-auto p-4">
-          <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
               <span class="self-center text-2xl font-semibold whitespace-nowrap ">Tag Along Construction</span>
-          </a>
-          <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200  " aria-controls="navbar-default" aria-expanded="false">
-              <span class="sr-only">Open main menu</span>
-              <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
-                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
-              </svg>
-          </button>
           <div class="hidden w-full md:block md:w-auto" id="navbar-default">
               <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border  rounded-lg  md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 ">
                   <li>
@@ -37,20 +29,33 @@
           </div>
       </div>
   </nav>
-    <section>
-        <div>
-         <h1 class="text-3xl font-bold underline text-indigo-700">
-    Ya Ateh Shi' Dine' adoo Shi' K'iis
-         </h1>
-            <img>
-            <p>Building a home in a classic method, includes a solid foundation and set plans for constructin. For this home
-            development, the foundation area will be cleared for the container bin dimensions. </p>
-            <img/>
+    <section class ="w-full relative h-[500px]">
+        <img class="w-full h-full object-cover absolute inset-0 z-0"
+                 src="/IMG_3162.JPG"
+                 alt="southeastern view of property"/>
+        <div class="relative z-10 h-full flex flex-col-2 justify-start md:flex-row">
+            <h1 class="text-5xl font-bold text-indigo-700 bg-white/25 p-2 m-4 rounded-md self-start whitespace-nowrap">Home Foundation Site</h1>
+        </div>
+    </section>
+    <section class="w-full bg-white py-8">
+        <div class="md:container md:mx-auto flex flex-col md:flex-row gap-6 px-4">
+            <div class="md:w-1/2">
+                <p class="text-black">Building a home in a classic method, includes a solid foundation and set plans for construction. For this container bin home
+                    development, the foundation area will be cleared for the container bin dimensions. Estimates will be a large 100' X 100'
+                    square space. The house wil be shaped as an L shape with main entrance(s) facing the east. That will be directed to the
+                    eastern direction mountains. Eastern direction doorways are essential for Navajo cultural norms.
+                </p>
+            </div>
+            <div class="md:w-1/2">
+                <img class="w-full rounded-md shadow-md" src="/IMG_1909landview.jpg" alt="blueprint design of home">
+            </div>
         </div>
     </section>
     <section>
 
     </section>
+
+
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
