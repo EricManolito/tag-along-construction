@@ -7,13 +7,13 @@
     <link href="/src/index.css" rel="stylesheet">
 
   </head>
-  <body class="bg-gray-300">
-    <nav class="border-black border-2 border-solid bg-teal-400 md:mt-4 rounded-xl md:container md:mx-auto mb-2">
+  <body class="bg-gray-300 font-family">
+    <nav class="border-black border-2 border-solid bg-teal-400 md:mt-4 rounded-xl md:container md:mx-auto mb-3">
       <div class="flex flex-wrap items-center justify-between mx-auto p-4">
-              <span class="self-center text-2xl font-semibold whitespace-nowrap ">Tag Along Construction</span>
+              <span class="self-center text-2xl font-semibold whitespace-nowrap text-shadow-white text-shadow-lg">Tag Along Construction</span>
           <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
               <span class="sr-only">Open main menu</span>
-              <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+              <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 14">
                   <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
               </svg>
           </button>
@@ -35,94 +35,130 @@
           </div>
       </div>
   </nav>
+
     <section class ="w-full relative h-[500px]">
         <img class="w-full h-full object-cover absolute inset-0 z-0"
                  src="/IMG_3162.JPG"
                  alt="southeastern view of property"/>
         <div class="relative z-10 h-full flex flex-col justify-start md:flex-col">
-            <h1 id="home" class="text-5xl font-bold text-indigo-700 bg-white/25 p-2 m-4 rounded-md self-start whitespace-nowrap">Home Foundation Site</h1>
+            <h1 id="home" class="text-5xl font-bold text-teal-400  p-2 m-4 rounded-md self-start whitespace-nowrap text-shadow-black text-shadow-lg">Home Foundation Site</h1>
         </div>
     </section>
     <section class="w-full bg-white py-8">
         <div class="md:container md:mx-auto flex flex-col md:flex-row gap-6 px-4">
             <div class="md:w-1/2">
-                <p class="text-black">Building a home in a classic method, includes a solid foundation and set plans for construction. For this container bin home
-                    development, the foundation area will be cleared for the container bin dimensions. Estimates will be a large 100' X 100'
-                    square space. The house will be an L shape with main entrance(s) facing the east. That will be directed to the
-                    eastern direction mountains. Eastern direction doorways are essential for Navajo cultural norms. This home will
-                    be solar-powered, and house a year-round greenhouse.
+                <p class="text-black">Building a home in a classic method, includes a solid foundation and set plans for construction.
+                    For this container bin home development, the foundation area will be cleared for the container bin dimensions.
+                    Estimates will be a large 100' X 100' square space. The house will be an L shape with main entrance(s)
+                    facing the east. That will be directed to the eastern direction mountains. Eastern direction doorways
+                    are essential for Navajo cultural norms. This home will be solar-powered, and house a year-round greenhouse.
                 </p>
+                <p class="text-black mt-4">Interior of home will have open spaces within four 40'ft. x 10ft. container bins. Two container bins
+                    will be welded together facing EAST-WEST directions, while the other two container bins will be welded together facing
+                    NORTH-SOUTH directions. Where the four container bins aren't connected, two 20ft. x 10.ft container bins will fit into that square
+                    open space. </p>
             </div>
             <div class="md:w-1/2">
                 <img class="w-full rounded-md shadow-md" src="/IMG_4077.JPG" alt="blueprint design of home">
             </div>
         </div>
     </section>
-
     <section class="w-full bg-teal-400 py-8">
         <div class="md:container md:mx-auto px-4">
-            <h2 id="farming" class="text-5xl font-bold text-indigo-700 bg-white/25 p-2 m-4 rounded-md self-start whitespace-nowrap">Farming - Gardening</h2>
+            <h2 id="farming" class="inline-block text-5xl font-bold text-white p-2 m-4 rounded-md
+            self-start whitespace-nowrap text-shadow-black text-shadow-lg">Farming - Gardening</h2>
             <div class="flex flex-col md:flex-row gap-6">
                 <div class="md:w-1/2">
-                <p>Set 15+ yards from the house site, will be an area of raised garden beds. The exterior of this area will have deer fence
-                wrapped around the entire area. 2+ feet deep trench outside the exterior will be lined with chicken wire and protective layers to keep
+                <p>Set 15+ yards east from the house site, will be an area of raised garden beds. The exterior of this area will have 6+ ft. tall deer fence wrapped around the entire raised garden beds area. 2+ feet deep trench outside the exterior will be lined with chicken wire and protective layers to keep
                 burrowing animals out. Inside the fenced area will be rows of raised garden beds wrapping from the entrance, around to the entrance. The
                 center of this fenced area will house growing flowers and peach/apple trees.</p>
                 <p >Crop field is located closer to the highway, where much water runoff pools. Method for crops will be with a tractor
                 to turn the soil. Indigenous methods to grow vegetables, and pollinators will be utilized in this section.</p>
                 </div>
-                <img class="md:w-1/2"
-                     src="/IMG_3946.JPG"
-                     alt="raised garden area"/>
-            </div>
+                <div class="md:w-1/2">
+                    <div id="gallery" class="relative w-full" data-carousel="slide">
+                        <!-- Carousel wrapper -->
+                        <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+                            <!-- Item 1 -->
+                            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                                <img src="/IMG_3755.JPG" class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                                     alt="view of overgrown sagebrush">
+                            </div>
+                            <!-- Item 2 -->
+                            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                                <img src="/IMG_3944.JPG" class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="pathway to raised garden bed area">
+                            </div>
+                            <!-- Item 3 -->
+                            <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
+                                <img src="/IMG_3808.JPG" class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="south-eastern view of cleared garden bed area">
+                            </div>
+                            <!-- Item 4 -->
+                            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                                <img src="/IMG_3947.JPG" class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="north-eastern view of cleared garden bed area">
+                            </div>
+                            <!-- Item 5 -->
+                            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                                <img src="/IMG_3948.JPG" class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="southern view from cleared entrance into raised garden bed area">
+                            </div>
+                            <!-- Item 6 -->
+                            <div>
+                                <img  src="/IMG_3946.JPG" class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                                     alt="entrance view of raised garden area"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
         </div>
     </section>
     <section class="w-full bg-white py-8">
         <div class="md:container md:mx-auto px-4">
             <div class="flex flex-col md:flex-row gap-6">
-                <div class="md:w-1/2">
-                    <h2 id="experiences" class="text-4xl font-bold text-indigo-700 mb-4">Experiences</h2>
+                <div class="md:w-1/2 border-2 p-4">
+                    <h2 id="experiences" class="text-4xl font-bold text-teal-500 mb-4 text-shadow-black text-shadow-lg">Experiences</h2>
                     <ul class="space-y-4">
-                        <li>Beehives - opportunity to observe bees collecting pollen from surrounding pollinators &
+                        <li><strong>Beehives</strong> - opportunity to observe bees collecting pollen from surrounding pollinators &
                             interact with the bee hives.</li>
-                        <li>Glamping/Camping - Camp on the rim of a sunken fire pit, experience lodging in a Hogan (Navajo
+                        <li><strong>Glamping/Camping</strong> - Camp on the rim of a sunken fire pit, experience lodging in a Hogan (Navajo
                             dwelling) or lodging in a massive bell tent.</li>
-                        <li>Target Range - Release your work stresses; learn to fire arrows, throw knives and/or launch
-                            spears. </li>
+                        <li><strong>Target Range</strong> - Release your work stresses; learn to fire arrows, throw knives and/or launch
+                            spears. Open target range with both Mesa and Mountain views. </li>
                     </ul>
                 </div>
-                <div>
-                    <h2 id="contact" class="text-4xl font-bold text-indigo-700 mb-4">Contact Me:</h2>
-                    <form class="max-w-sm mx-auto">
-                        <label for="name" class="mb-2 mx-2">Name</label>
-                        <input id="name" required placeholder="provide your full name" class="rounded-lg text-sm border-1 bg-white focus:ring-blue-500
-                     focus:border-blue-500 p-2.5 mb-2" />
-
-                        <label for="email" class="mb-2 mx-2" >Email</label>
-                        <input id="email" type="email" required placeholder="name@adventures.com " class="rounded-lg text-sm focus:ring-blue-500
-                            focus:border-blue-500 p-2.5 mt-2"/>
-
-                        <label for="message" class="block mb-2 text-sm font-medium text-gray-900">Your message</label>
-                        <textarea id="message" rows="4" class="block p-2.5 w-full text-sm rounded-lg border
-                    border-gray-300 focus:ring-blue-500 focus:border-blue-500
-                     placeholder-gray-400 mt-4" placeholder="Leave a comment...">
-                        </textarea>
-                        <button type="submit"
-                                class="mt-4 bg-blue-700 hover:bg-blue-800 text-white font-medium py-2 px-4 rounded-lg focus:ring-4 focus:ring-blue-300">
-                            Submit
-                        </button>
+                <div class='flex-row border-2 p-4'>
+                    <h2 id="contact" class="text-4xl font-bold text-teal-500 mb-4 text-shadow-black text-shadow-lg">Contact Me:</h2>
+                    <form class="max-w-md mx-auto">
+                        <div class="relative z-0 w-full mb-5 group">
+                            <input type="email" name="floating_email" id="floating_email" class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder=" " required />
+                            <label for="floating_email" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Email address</label>
+                        </div>
+                        <div class="grid md:grid-cols-2 md:gap-6">
+                            <div class="relative z-0 w-full mb-5 group">
+                                <input type="text" name="floating_first_name" id="floating_first_name" class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder=" " required />
+                                <label for="floating_first_name" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">First name</label>
+                            </div>
+                            <div class="relative z-0 w-full mb-5 group">
+                                <input type="text" name="floating_last_name" id="floating_last_name" class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder=" " required />
+                                <label for="floating_last_name" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Last name</label>
+                            </div>
+                        </div>
+                        <div class="relative z-0 w-full mb-5 group">
+                            <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your message</label>
+                            <textarea id="message" rows="10" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 " placeholder="Leave a comment..."></textarea>
+                        </div>
+                        <button type="submit" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Submit</button>
                     </form>
+
                 </div>
             </div>
         </div>
     </section>
-    <footer class="bg-gray-800 text-white py-6 mt-8">
+    <footer class="bg-gray-800 text-white py-6">
         <div class="md:container md:mx-auto px-4 text-center">
-            <p class="text-sm">&copy; 2025 Tag Along Construction. All rights reserved.</p>
+            <p class="text-sm">&copy; 2025 Tag Along Construction.</p>
             <p class="text-sm mt-2">Built in New Mexico</p>
         </div>
     </footer>
-
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
