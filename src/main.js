@@ -1,18 +1,17 @@
 import 'flowbite'
-import emailjs from 'emailjs-com';
-
+import emailjs from 'emailjs-com'
 
 // Wait for the page to fully load before attaching form logic
 window.onload = function () {
 
   // Select the first <form> element
-  const form = document.querySelector('form');
+  const form = document.querySelector('form')
 
   // Attach a submit event listener to the form
   form.addEventListener('submit', function (e) {
 
     // Prevent default form submission behavior
-    e.preventDefault();
+    e.preventDefault()
 
     // Send the form data using EmailJS
     emailjs.sendForm(
@@ -24,16 +23,16 @@ window.onload = function () {
       .then(() => {
 
         // Notify user of success
-        alert('Message sent successfully!');
+        alert('Message sent successfully!')
 
         // Clear the form fields
-        form.reset();
+        form.reset()
       })
       .catch((error) => {
 
         // Notify user of error with error message
-        alert('Failed to send message: ' + error.text);
-      });
-  });
-};
+        alert('Failed to send message: ' + error.text)
+      })
+  })
+}
 
