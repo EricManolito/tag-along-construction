@@ -5,206 +5,501 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Tag Along Construction</title>
     <link href="/src/index.css" rel="stylesheet">
-
 </head>
-<body class="bg-gray-300 font-family">
-<nav class="border-black border-2 border-solid bg-teal-400 md:mt-4 rounded-xl container md:mx-auto mb-3">
+<body class="bg-gray-100 dark:bg-slate-900 font-family">
+
+<!-- NAVBAR -->
+<nav class="border-black border-2 border-solid bg-sacred-west-500 md:mt-4 rounded-xl container md:mx-auto mb-3">
     <div class="flex flex-wrap items-center justify-between mx-auto p-4">
-        <span class="self-center text-2xl font-semibold whitespace-nowrap text-shadow-white text-shadow-lg">Tag Along Construction</span>
-        <button data-collapse-toggle="navbar-default" type="button"
-                class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 "
-                aria-controls="navbar-default" aria-expanded="false">
+        <a href="/index.html" class="self-center text-2xl font-semibold whitespace-nowrap text-white text-shadow-black text-shadow-lg">Tag Along Construction</a>
+        <button data-collapse-toggle="navbar-home" type="button"
+                class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-200 rounded-lg md:hidden hover:bg-sacred-west-600 focus:outline-none focus:ring-2 focus:ring-sacred-west-300"
+                aria-controls="navbar-home" aria-expanded="false">
             <span class="sr-only">Open main menu</span>
             <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 14">
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                       d="M1 1h15M1 7h15M1 13h15"/>
             </svg>
         </button>
-        <div class="hidden w-full md:block md:w-auto" id="navbar-default">
-            <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border  rounded-lg  md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 ">
+        <div class="hidden w-full md:block md:w-auto" id="navbar-home">
+            <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0">
                 <li>
-                    <a href="#home"
-                       class="block py-2 px-3 text-white bg-blue-700 rounded-sm md:bg-transparent md:text-blue-700 md:p-0"
-                       aria-current="page">House Development</a>
+                    <a href="/index.html"
+                       class="block py-2 px-3 text-sacred-south-400 md:p-0 font-bold">Home</a>
                 </li>
                 <li>
-                    <a href="#farming"
-                       class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">Farming</a>
+                    <a href="/land.html"
+                       class="block py-2 px-3 text-white hover:text-sacred-south-400 md:p-0 transition-colors duration-200">The Land</a>
                 </li>
                 <li>
-                    <a href="#experiences"
-                       class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">Experiences</a>
+                    <a href="/phases.html"
+                       class="block py-2 px-3 text-white hover:text-sacred-south-400 md:p-0 transition-colors duration-200">Phases</a>
+                </li>
+                <li>
+                    <a href="/house.html"
+                       class="block py-2 px-3 text-white hover:text-sacred-south-400 md:p-0 transition-colors duration-200">The House</a>
+                </li>
+                <li>
+                    <a href="/farming.html"
+                       class="block py-2 px-3 text-white hover:text-sacred-south-400 md:p-0 transition-colors duration-200">Farming</a>
+                </li>
+                <li>
+                    <a href="/experiences.html"
+                       class="block py-2 px-3 text-white hover:text-sacred-south-400 md:p-0 transition-colors duration-200">Experiences</a>
                 </li>
                 <li>
                     <a href="#contact"
-                       class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">Contact</a>
+                       class="block py-2 px-3 text-white hover:text-sacred-south-400 md:p-0 transition-colors duration-200">Contact</a>
                 </li>
             </ul>
         </div>
     </div>
 </nav>
+
 <main>
-    <section class="w-full relative h-[500px]" aria-labelledby="home">
-        <img class="w-full h-full object-cover absolute inset-0 z-0" src="/IMG_3162.JPG"
-             alt="southeastern view of property"/>
-        <div class="relative z-10 h-full flex flex-col justify-start md:flex-col">
-            <h1 id="home" class="text-5xl font-bold text-teal-400  p-2 m-4 rounded-md self-start whitespace-nowrap
-             text-shadow-black text-shadow-lg underline underline-offset-8">Home Foundation Site</h1>
-        </div>
-    </section>
-    <section class="w-full bg-white py-8">
-        <div class="container mx-auto md:mx-auto flex flex-col md:flex-row gap-6 px-4">
-            <div class="md:w-1/2">
-                <p class="text-black">Building a home in a classic method, includes a solid foundation and set plans for
-                    construction.
-                    For this container bin home development, the foundation area will be cleared for the container bin
-                    dimensions.
-                    Estimates will be a large 100' X 100' square space. The house will be an L shape with main
-                    entrance(s)
-                    facing the east. That will be directed to the eastern direction mountains. Eastern direction
-                    doorways
-                    are essential for Navajo cultural norms. This home will be solar-powered, and house a year-round
-                    greenhouse.
-                </p>
-                <p class="text-black mt-4">Interior of home will have open spaces within four 40'ft. x 10ft. container
-                    bins. Two container bins
-                    will be welded together facing EAST-WEST directions, while the other two container bins will be
-                    welded together facing
-                    NORTH-SOUTH directions. Where the four container bins aren't connected, two 20ft. x 10.ft container
-                    bins will fit into that square
-                    open space. </p>
+    <!-- HERO -->
+    <section class="w-full relative h-[600px]" aria-labelledby="home-hero">
+        <img class="w-full h-full object-cover absolute inset-0 z-0"
+             src="https://res.cloudinary.com/dgkckqptm/image/upload/v1777589707/IMG_3086_uozzvp.jpg"
+             alt="Western boundary looking east toward Cuba valley and Nacimiento Mountains"/>
+        <div class="absolute inset-0 bg-black/50 z-10"></div>
+        <div class="relative z-20 h-full flex flex-col justify-end p-8 container mx-auto max-w-screen-xl">
+            <div class="mb-4 inline-block">
+                <span class="bg-sacred-south-400 border-2 border-sacred-north-700 text-sacred-north-700 font-bold text-sm px-4 py-2 rounded-full">Phase 0 — Active Now</span>
             </div>
-            <div class="md:w-1/2">
-                <img class="w-full rounded-md shadow-md" src="/IMG_4077.JPG" alt="blueprint design of home">
-            </div>
-        </div>
-    </section>
-    <section aria-labelledby="farming" class="w-full bg-teal-400 py-8">
-        <div class="container mx-auto md:mx-auto px-4">
-            <h2 id="farming" class="inline-block text-5xl font-bold text-white p-2 m-4 rounded-md
-            self-start whitespace-nowrap text-shadow-black text-shadow-lg underline underline-offset-8">Farming -
-                Gardening</h2>
-            <div class="flex flex-col md:flex-row gap-6">
-                <div class="md:w-1/2">
-                    <p>Set 15+ yards east from the house site, will be an area of raised garden beds. The exterior of
-                        this area will have 6+ ft. tall deer fence wrapped around the entire raised garden beds area. 2+
-                        feet deep trench outside the exterior will be lined with chicken wire and protective layers to
-                        keep
-                        burrowing animals out. Inside the fenced area will be rows of raised garden beds wrapping from
-                        the entrance, around to the entrance. The
-                        center of this fenced area will house growing flowers and peach/apple trees.</p>
-                    <p>Crop field is located closer to the highway, where much water runoff pools. Method for crops will
-                        be with a tractor
-                        to turn the soil. Indigenous methods to grow vegetables, and pollinators will be utilized in
-                        this section.</p>
+            <h1 id="home-hero" class="text-6xl font-bold text-white text-shadow-black text-shadow-lg mb-4">Tag Along Construction</h1>
+            <p class="text-sacred-east-100 text-2xl max-w-2xl mb-8">Building off-grid, debt-free, on 12 acres in Cuba, New Mexico — documented in kinda real time.</p>
+            <div class="flex flex-wrap gap-4">
+                <div class="bg-black/40 border-2 border-sacred-west-400 rounded-lg px-5 py-3 text-center">
+                    <div class="text-2xl font-bold text-sacred-west-400">12.111</div>
+                    <div class="text-xs text-sacred-east-200">Acres</div>
                 </div>
-                <div class="md:w-1/2">
-                    <div id="gallery" class="relative w-full" data-carousel="slide">
-                        <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
-                            <div class="duration-700 ease-in-out" data-carousel-item="active">
-                                <img src="/IMG_3755.JPG"
-                                     class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-                                     alt="view of overgrown sagebrush">
-                            </div>
-                            <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                                <img src="/IMG_3944.JPG"
-                                     class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-                                     alt="pathway to raised garden bed area">
-                            </div>
-                            <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                                <img src="/IMG_3808.JPG"
-                                     class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-                                     alt="south-eastern view of cleared garden bed area">
-                            </div>
-                            <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                                <img src="/IMG_3947.JPG"
-                                     class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-                                     alt="north-eastern view of cleared garden bed area">
-                            </div>
-                            <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                                <img src="/IMG_3948.JPG"
-                                     class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-                                     alt="southern entrance to garden beds">
-                            </div>
-                            <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                                <img src="/IMG_3946.JPG"
-                                     class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-                                     alt="entrance view of raised garden area"/>
-                            </div>
-                        </div>
+                <div class="bg-black/40 border-2 border-sacred-south-400 rounded-lg px-5 py-3 text-center">
+                    <div class="text-2xl font-bold text-sacred-south-400">6,900ft</div>
+                    <div class="text-xs text-sacred-east-200">Elevation</div>
+                </div>
+                <div class="bg-black/40 border-2 border-sacred-east-100 rounded-lg px-5 py-3 text-center">
+                    <div class="text-2xl font-bold text-sacred-east-100">Cuba, NM</div>
+                    <div class="text-xs text-sacred-east-200">Na'azísí Bito'</div>
+                </div>
+                <div class="bg-black/40 border-2 border-sacred-west-400 rounded-lg px-5 py-3 text-center">
+                    <div class="text-2xl font-bold text-sacred-west-400">2023</div>
+                    <div class="text-xs text-sacred-east-200">Year Purchased</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- INTRO -->
+    <section class="w-full bg-sacred-east-100 dark:bg-slate-800 py-12 border-b-4 border-sacred-west-500">
+        <div class="container mx-auto max-w-screen-xl px-4">
+            <div class="flex flex-col lg:flex-row gap-8 items-start">
+                <div class="lg:w-2/3">
+                    <h2 class="text-4xl font-bold text-sacred-west-500 mb-6 underline underline-offset-8 dark:text-sacred-west-400">The Project</h2>
+                    <p class="text-gray-700 dark:text-gray-200 mb-4">Real-time documentation of building a debt-free, off-grid homestead from raw high desert earth. No shortcuts, no loans — just phased, intentional work.</p>
+                    <p class="text-gray-700 dark:text-gray-200 mb-4">The land sits between the Nacimiento Mountains to the east and dramatic mesa cliffs to the west, at the edge of the Rio Puerco valley. Purchased in January 2023, it was covered in dense sagebrush and some juniper. Phase 0 clearing began immediately and continues today.</p>
+                    <p class="text-gray-700 dark:text-gray-200">The build centers on an L-shaped container home — six shipping containers, east-facing entrance per Navajo cultural tradition, off-grid solar, rainwater catchment, and a year-round greenhouse. </p>
+                </div>
+                <div class="lg:w-1/3 w-full">
+                    <div class="bg-sacred-east-50 dark:bg-slate-700 border-4 border-sacred-west-500 rounded-lg p-6">
+                        <h3 class="text-lg font-bold text-sacred-west-500 mb-4 dark:text-sacred-west-400">Quick Facts</h3>
+                        <ul class="space-y-3">
+                            <li class="flex justify-between border-b border-gray-200 dark:border-slate-600 pb-2">
+                                <span class="text-gray-500 dark:text-gray-400 text-sm">Location</span>
+                                <span class="text-sacred-north-600 dark:text-sacred-east-200 text-sm font-semibold">Cuba, NM</span>
+                            </li>
+                            <li class="flex justify-between border-b border-gray-200 dark:border-slate-600 pb-2">
+                                <span class="text-gray-500 dark:text-gray-400 text-sm">Acreage</span>
+                                <span class="text-sacred-north-600 dark:text-sacred-east-200 text-sm font-semibold">12.111 acres</span>
+                            </li>
+                            <li class="flex justify-between border-b border-gray-200 dark:border-slate-600 pb-2">
+                                <span class="text-gray-500 dark:text-gray-400 text-sm">Elevation</span>
+                                <span class="text-sacred-north-600 dark:text-sacred-east-200 text-sm font-semibold">~6,900ft</span>
+                            </li>
+                            <li class="flex justify-between border-b border-gray-200 dark:border-slate-600 pb-2">
+                                <span class="text-gray-500 dark:text-gray-400 text-sm">Home Style</span>
+                                <span class="text-sacred-north-600 dark:text-sacred-east-200 text-sm font-semibold">L-shape containers</span>
+                            </li>
+                            <li class="flex justify-between border-b border-gray-200 dark:border-slate-600 pb-2">
+                                <span class="text-gray-500 dark:text-gray-400 text-sm">Power</span>
+                                <span class="text-sacred-north-600 dark:text-sacred-east-200 text-sm font-semibold">Off-grid solar</span>
+                            </li>
+                            <li class="flex justify-between border-b border-gray-200 dark:border-slate-600 pb-2">
+                                <span class="text-gray-500 dark:text-gray-400 text-sm">Water</span>
+                                <span class="text-sacred-north-600 dark:text-sacred-east-200 text-sm font-semibold">Municipal + rainwater</span>
+                            </li>
+                            <li class="flex justify-between pb-2">
+                                <span class="text-gray-500 dark:text-gray-400 text-sm">Phase</span>
+                                <span class="bg-sacred-south-400 text-sacred-north-700 text-xs font-bold px-3 py-1 rounded-full border border-sacred-north-700">Phase 0 Active</span>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="w-full bg-slate-200 py-8">
-        <div class="container mx-auto md:mx-auto px-4">
-            <div class="flex flex-col md:flex-row gap-6 ">
-                <div class="md:w-1/2 border-2 p-4 bg-emerald-50 rounded-lg">
-                    <h2 id="experiences" class="text-4xl font-bold text-teal-500 mb-4 text-shadow-black text-shadow-lg
-                            underline underline-offset-8">Experiences</h2>
-                    <ul class="space-y-4">
-                        <li><strong>Beehives</strong> - opportunity to observe bees collecting pollen from surrounding
-                            pollinators &
-                            interact with the bee hives. If beehive are ready, you can experience harvesting of honey.
+
+    <!-- HERO PHOTO CAROUSEL -->
+    <section class="w-full relative overflow-hidden bg-sacred-north-700" style="height: 650px;">
+        <!-- Slides -->
+        <div id="heroSlides" class="flex h-full transition-transform duration-700 ease-in-out">
+            <div class="w-full flex-shrink-0 h-full relative cursor-pointer" onclick="openLightbox(0)">
+                <img src="https://res.cloudinary.com/dgkckqptm/image/upload/v1777327076/2024-12-26_north-boundary-looking-west-mesa.jpg_hclrpq.jpg"
+                     alt="Mesa view from north property boundary"
+                     class="w-full h-full object-cover object-center">
+                <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-sacred-north-700 to-transparent px-8 py-6">
+                    <p class="text-white text-lg font-semibold">North Boundary — Mesa View</p>
+                </div>
+            </div>
+            <div class="w-full flex-shrink-0 h-full relative cursor-pointer" onclick="openLightbox(1)">
+                <img src="https://res.cloudinary.com/dgkckqptm/image/upload/v1777327074/2024-05-13_glove-shovel-handle-facing-east-brush.jpg_tqlle5.jpg"
+                     alt="Clearing the parking lot area"
+                     class="w-full h-full object-cover object-center">
+                <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-sacred-north-700 to-transparent px-8 py-6">
+                    <p class="text-white text-lg font-semibold">Clearing the Parking Lot — Hand by Hand</p>
+                </div>
+            </div>
+            <div class="w-full flex-shrink-0 h-full relative cursor-pointer" onclick="openLightbox(2)">
+                <img src="https://res.cloudinary.com/dgkckqptm/image/upload/v1777327074/2024-06-01_family-truck-by-tree-dirt-road.jpg_yt74a7.jpg"
+                     alt="Truck loaded with brush on the dirt road"
+                     class="w-full h-full object-cover object-center">
+                <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-sacred-north-700 to-transparent px-8 py-6">
+                    <p class="text-white text-lg font-semibold">Hauling Brush — The Dirt Road Takes Shape</p>
+                </div>
+            </div>
+            <div class="w-full flex-shrink-0 h-full relative cursor-pointer" onclick="openLightbox(3)">
+                <img src="https://res.cloudinary.com/dgkckqptm/image/upload/v1777327074/2024-05-15_glove-shovel-handle-east-brush-clearing.jpg_nwyhqv.jpg"
+                     alt="Glove and shovel with stormy sky"
+                     class="w-full h-full object-cover object-center">
+                <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-sacred-north-700 to-transparent px-8 py-6">
+                    <p class="text-white text-lg font-semibold">Storm Rolling In — Still Working</p>
+                </div>
+            </div>
+            <div class="w-full flex-shrink-0 h-full relative cursor-pointer" onclick="openLightbox(4)">
+                <img src="https://res.cloudinary.com/dgkckqptm/image/upload/v1777327069/2024-03-23_pink-marker-corral-brush-line-mesa.jpg_xpey66.jpg"
+                     alt="Southern boundary marker with corral and mesa"
+                     class="w-full h-full object-cover object-center">
+                <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-sacred-north-700 to-transparent px-8 py-6">
+                    <p class="text-white text-lg font-semibold">South Boundary — Corral & Mesa</p>
+                </div>
+            </div>
+            <div class="w-full flex-shrink-0 h-full relative cursor-pointer" onclick="openLightbox(5)">
+                <img src="https://res.cloudinary.com/dgkckqptm/image/upload/v1777327066/2023-10-26_survey-keith-eric-working-slope.jpg_qe2rkc.jpg"
+                     alt="Keith and Eric surveying the east parcel marker"
+                     class="w-full h-full object-cover object-center">
+                <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-sacred-north-700 to-transparent px-8 py-6">
+                    <p class="text-white text-lg font-semibold">East Parcel Survey — Where It All Began</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Arrows -->
+        <button onclick="heroSlide(-1)" class="absolute left-4 top-1/2 -translate-y-1/2 bg-sacred-north-700 bg-opacity-60 hover:bg-opacity-90 text-white rounded-full w-12 h-12 flex items-center justify-center text-2xl transition-all z-10">&#8249;</button>
+        <button onclick="heroSlide(1)" class="absolute right-4 top-1/2 -translate-y-1/2 bg-sacred-north-700 bg-opacity-60 hover:bg-opacity-90 text-white rounded-full w-12 h-12 flex items-center justify-center text-2xl transition-all z-10">&#8250;</button>
+
+        <!-- Dots -->
+        <div class="absolute bottom-16 left-1/2 -translate-x-1/2 flex gap-2 z-10">
+            <span class="hero-dot w-3 h-3 rounded-full bg-white cursor-pointer opacity-100" onclick="heroGoTo(0)"></span>
+            <span class="hero-dot w-3 h-3 rounded-full bg-white cursor-pointer opacity-40" onclick="heroGoTo(1)"></span>
+            <span class="hero-dot w-3 h-3 rounded-full bg-white cursor-pointer opacity-40" onclick="heroGoTo(2)"></span>
+            <span class="hero-dot w-3 h-3 rounded-full bg-white cursor-pointer opacity-40" onclick="heroGoTo(3)"></span>
+            <span class="hero-dot w-3 h-3 rounded-full bg-white cursor-pointer opacity-40" onclick="heroGoTo(4)"></span>
+            <span class="hero-dot w-3 h-3 rounded-full bg-white cursor-pointer opacity-40" onclick="heroGoTo(5)"></span>
+        </div>
+    </section>
+
+    <!-- LIGHTBOX -->
+    <div id="lightbox" class="fixed inset-0 bg-black bg-opacity-95 z-50 hidden flex-col items-center justify-center">
+        <button onclick="closeLightbox()" class="absolute top-4 right-6 text-white text-4xl hover:text-sacred-south-400 transition-colors">&times;</button>
+        <button onclick="lightboxNav(-1)" class="absolute left-4 top-1/2 -translate-y-1/2 bg-sacred-north-700 bg-opacity-60 hover:bg-opacity-90 text-white rounded-full w-14 h-14 flex items-center justify-center text-3xl transition-all">&#8249;</button>
+        <button onclick="lightboxNav(1)" class="absolute right-4 top-1/2 -translate-y-1/2 bg-sacred-north-700 bg-opacity-60 hover:bg-opacity-90 text-white rounded-full w-14 h-14 flex items-center justify-center text-3xl transition-all">&#8250;</button>
+        <img id="lightboxImg" src="" alt="" class="max-h-screen max-w-screen-xl w-full object-contain px-20">
+        <p id="lightboxCaption" class="text-white text-center mt-4 text-lg font-semibold px-8"></p>
+        <p id="lightboxCounter" class="text-sacred-east-300 text-sm mt-1"></p>
+    </div>
+
+    <script>
+      // Carousel
+      let heroIndex = 0;
+      const heroTotal = 6;
+      function heroSlide(dir) {
+        heroIndex = (heroIndex + dir + heroTotal) % heroTotal;
+        updateHero();
+      }
+      function heroGoTo(n) {
+        heroIndex = n;
+        updateHero();
+      }
+      function updateHero() {
+        document.getElementById('heroSlides').style.transform = `translateX(-${heroIndex * 100}%)`;
+        document.querySelectorAll('.hero-dot').forEach((d, i) => {
+          d.style.opacity = i === heroIndex ? '1' : '0.4';
+        });
+      }
+
+      // Lightbox
+      const lightboxData = [
+        { src: 'https://res.cloudinary.com/dgkckqptm/image/upload/v1777327076/2024-12-26_north-boundary-looking-west-mesa.jpg_hclrpq.jpg', caption: 'North Boundary — Mesa View' },
+        { src: 'https://res.cloudinary.com/dgkckqptm/image/upload/v1777327074/2024-05-13_glove-shovel-handle-facing-east-brush.jpg_tqlle5.jpg', caption: 'Clearing the Parking Lot — Hand by Hand' },
+        { src: 'https://res.cloudinary.com/dgkckqptm/image/upload/v1777327074/2024-06-01_family-truck-by-tree-dirt-road.jpg_yt74a7.jpg', caption: 'Hauling Brush — The Dirt Road Takes Shape' },
+        { src: 'https://res.cloudinary.com/dgkckqptm/image/upload/v1777327074/2024-05-15_glove-shovel-handle-east-brush-clearing.jpg_nwyhqv.jpg', caption: 'Storm Rolling In — Still Working' },
+        { src: 'https://res.cloudinary.com/dgkckqptm/image/upload/v1777327069/2024-03-23_pink-marker-corral-brush-line-mesa.jpg_xpey66.jpg', caption: 'South Boundary — Corral & Mesa' },
+        { src: 'https://res.cloudinary.com/dgkckqptm/image/upload/v1777327066/2023-10-26_survey-keith-eric-working-slope.jpg_qe2rkc.jpg', caption: 'East Parcel Survey — Where It All Began' }
+      ];
+      let lightboxIndex = 0;
+      function openLightbox(n) {
+        lightboxIndex = n;
+        updateLightbox();
+        const lb = document.getElementById('lightbox');
+        lb.classList.remove('hidden');
+        lb.classList.add('flex');
+        document.body.style.overflow = 'hidden';
+      }
+      function closeLightbox() {
+        const lb = document.getElementById('lightbox');
+        lb.classList.add('hidden');
+        lb.classList.remove('flex');
+        document.body.style.overflow = '';
+      }
+      function lightboxNav(dir) {
+        lightboxIndex = (lightboxIndex + dir + lightboxData.length) % lightboxData.length;
+        updateLightbox();
+      }
+      function updateLightbox() {
+        document.getElementById('lightboxImg').src = lightboxData[lightboxIndex].src;
+        document.getElementById('lightboxImg').alt = lightboxData[lightboxIndex].caption;
+        document.getElementById('lightboxCaption').textContent = lightboxData[lightboxIndex].caption;
+        document.getElementById('lightboxCounter').textContent = `${lightboxIndex + 1} / ${lightboxData.length}`;
+      }
+      // Close lightbox on background click
+      document.getElementById('lightbox').addEventListener('click', function(e) {
+        if (e.target === this) closeLightbox();
+      });
+      // Keyboard navigation
+      document.addEventListener('keydown', function(e) {
+        const lb = document.getElementById('lightbox');
+        if (!lb.classList.contains('hidden')) {
+          if (e.key === 'ArrowLeft') lightboxNav(-1);
+          if (e.key === 'ArrowRight') lightboxNav(1);
+          if (e.key === 'Escape') closeLightbox();
+        }
+      });
+    </script>
+    <!-- 4 SACRED DIRECTIONS BAR -->
+    <section class="w-full bg-sacred-north-700 py-8 border-b-4 border-sacred-south-400">
+        <div class="container mx-auto max-w-screen-xl px-4">
+            <h2 class="text-2xl font-bold text-white mb-6 text-center">Four Sacred Directions — The Color Language of This Site</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <div class="bg-sacred-east-50 border-4 border-sacred-north-700 rounded-lg p-4 text-center">
+                    <div class="text-xl font-bold text-sacred-north-600">East — White</div>
+                    <div class="text-xs text-sacred-north-500 mt-1">Dawn · Beginnings · Home entrance</div>
+                    <div class="text-xs text-sacred-west-600 mt-1 font-semibold">Sisnaajiní / Blanca Peak</div>
+                </div>
+                <div class="bg-sacred-south-400 border-4 border-sacred-north-700 rounded-lg p-4 text-center">
+                    <div class="text-xl font-bold text-sacred-north-700">South — Yellow</div>
+                    <div class="text-xs text-sacred-north-600 mt-1">Growth · Warmth · Highlights</div>
+                    <div class="text-xs text-sacred-north-500 mt-1 font-semibold">Tsoodzil / Mount Taylor</div>
+                </div>
+                <div class="bg-sacred-west-500 border-4 border-sacred-north-700 rounded-lg p-4 text-center">
+                    <div class="text-xl font-bold text-white">West — Turquoise</div>
+                    <div class="text-xs text-sacred-east-200 mt-1">Healing · Brand · Navigation</div>
+                    <div class="text-xs text-sacred-east-100 mt-1 font-semibold">Dook'o'oosłííd / San Francisco Peaks</div>
+                </div>
+                <div class="bg-sacred-north-600 border-4 border-sacred-south-400 rounded-lg p-4 text-center">
+                    <div class="text-xl font-bold text-white">North — Black</div>
+                    <div class="text-xs text-sacred-east-200 mt-1">Strength · Structure · Borders</div>
+                    <div class="text-xs text-sacred-east-100 mt-1 font-semibold">Dibé Nitsaa / Hesperus Peak</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PAGE TEASERS -->
+    <section class="w-full bg-gray-100 dark:bg-slate-900 py-12 border-b-4 border-sacred-west-500">
+        <div class="container mx-auto max-w-screen-xl px-4">
+            <h2 class="text-4xl font-bold text-sacred-west-500 mb-2 underline underline-offset-8 dark:text-sacred-west-400">Explore the Project</h2>
+            <p class="text-gray-600 dark:text-gray-300 mb-8 max-w-2xl">Every aspect of this build has its own page — follow along with the full story.</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+                <!-- The Land -->
+                <a href="/land.html" class="group block bg-white dark:bg-slate-800 border-4 border-sacred-west-500 rounded-lg p-6 hover:bg-sacred-west-500 transition-colors duration-200">
+                    <div class="text-sacred-west-500 group-hover:text-white text-2xl font-bold mb-2 transition-colors duration-200">The Land</div>
+                    <p class="text-gray-600 dark:text-gray-300 group-hover:text-sacred-east-100 text-sm transition-colors duration-200">12 acres in Cuba NM — the four sacred directions, the Rio Puerco valley, and the eastern parcel. Where this all begins.</p>
+                    <div class="mt-4 text-sacred-south-400 group-hover:text-sacred-south-300 font-semibold text-sm transition-colors duration-200">Explore The Land →</div>
+                </a>
+
+                <!-- Phases -->
+                <a href="/phases.html" class="group block bg-white dark:bg-slate-800 border-4 border-sacred-south-400 rounded-lg p-6 hover:bg-sacred-south-400 transition-colors duration-200">
+                    <div class="text-sacred-north-600 dark:text-sacred-east-100 group-hover:text-sacred-north-700 text-2xl font-bold mb-2 transition-colors duration-200">Phases</div>
+                    <p class="text-gray-600 dark:text-gray-300 group-hover:text-sacred-north-600 text-sm transition-colors duration-200">Phase 0 through 5+ — the full build roadmap from raw earth clearing to finished off-grid homestead. Phase 0 active now.</p>
+                    <div class="mt-4 text-sacred-west-500 group-hover:text-sacred-north-700 font-semibold text-sm transition-colors duration-200">See All Phases →</div>
+                </a>
+
+                <!-- The House -->
+                <a href="/house.html" class="group block bg-white dark:bg-slate-800 border-4 border-sacred-north-600 rounded-lg p-6 hover:bg-sacred-north-600 transition-colors duration-200">
+                    <div class="text-sacred-north-600 dark:text-sacred-east-100 group-hover:text-white text-2xl font-bold mb-2 transition-colors duration-200">The House</div>
+                    <p class="text-gray-600 dark:text-gray-300 group-hover:text-sacred-east-200 text-sm transition-colors duration-200">L-shaped container home — six containers, east-facing Navajo entrance, off-grid solar, rainwater catchment, year-round greenhouse.</p>
+                    <div class="mt-4 text-sacred-west-500 group-hover:text-sacred-south-400 font-semibold text-sm transition-colors duration-200">See The House →</div>
+                </a>
+
+                <!-- Farming -->
+                <a href="/farming.html" class="group block bg-white dark:bg-slate-800 border-4 border-sacred-west-500 rounded-lg p-6 hover:bg-sacred-west-500 transition-colors duration-200">
+                    <div class="text-sacred-west-500 group-hover:text-white text-2xl font-bold mb-2 transition-colors duration-200">Farming & Gardening</div>
+                    <p class="text-gray-600 dark:text-gray-300 group-hover:text-sacred-east-100 text-sm transition-colors duration-200">Raised garden beds, deer fencing, peach and apple orchard, crop field near the highway, rainwater irrigation, indigenous methods.</p>
+                    <div class="mt-4 text-sacred-south-400 group-hover:text-sacred-south-300 font-semibold text-sm transition-colors duration-200">See Farming →</div>
+                </a>
+
+                <!-- Experiences -->
+                <a href="/experiences.html" class="group block bg-white dark:bg-slate-800 border-4 border-sacred-south-400 rounded-lg p-6 hover:bg-sacred-south-400 transition-colors duration-200">
+                    <div class="text-sacred-north-600 dark:text-sacred-east-100 group-hover:text-sacred-north-700 text-2xl font-bold mb-2 transition-colors duration-200">Experiences</div>
+                    <p class="text-gray-600 dark:text-gray-300 group-hover:text-sacred-north-600 text-sm transition-colors duration-200">Target range, sunken fire pit, glamping and Hogan lodging, stargazing, beehives — raw land encounters at 6,900ft.</p>
+                    <div class="mt-4 text-sacred-west-500 group-hover:text-sacred-north-700 font-semibold text-sm transition-colors duration-200">See Experiences →</div>
+                </a>
+
+                <!-- Eastern Parcel teaser -->
+                <a href="/land.html#eastern-parcel" class="group block bg-white dark:bg-slate-800 border-4 border-dashed border-sacred-east-400 rounded-lg p-6 hover:bg-sacred-east-50 transition-colors duration-200">
+                    <div class="text-sacred-north-400 dark:text-sacred-east-300 group-hover:text-sacred-north-600 text-2xl font-bold mb-2 transition-colors duration-200">Eastern Parcel</div>
+                    <p class="text-gray-500 dark:text-gray-400 group-hover:text-gray-600 text-sm transition-colors duration-200">The Rio Puerco valley, cottonwood corridor, sunken cabin in the arroyo, yoga platforms. Early vision — developing slowly.</p>
+                    <div class="mt-4 text-sacred-east-500 group-hover:text-sacred-west-500 font-semibold text-sm transition-colors duration-200">Early Vision →</div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROGRESS SNAPSHOT -->
+    <section class="w-full bg-sacred-south-200 py-12 border-b-4 border-sacred-north-700">
+        <div class="container mx-auto max-w-screen-xl px-4">
+            <h2 class="text-4xl font-bold text-sacred-north-600 mb-2 underline underline-offset-8">Current Progress</h2>
+            <p class="text-gray-600 mb-8 max-w-2xl">Phase 0 is active — here is what has been accomplished and what is coming next.</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <!-- Done -->
+                <div class="bg-sacred-west-600 border-2 border-sacred-north-700 rounded-lg p-6">
+                    <h3 class="text-xl font-bold text-sacred-south-400 mb-4">Completed So Far</h3>
+                    <ul class="space-y-3">
+                        <li class="flex gap-3 items-start">
+                            <span class="text-sacred-south-400 font-bold flex-shrink-0">✓</span>
+                            <span class="text-sacred-east-100 text-sm">Property purchased January 2023</span>
                         </li>
-                        <li>
-                            <div class="flex items-center gap-2">
-                                <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" viewBox="0 0 24 24" fill="currentColor" focusable="false" class="size-6 flex-shrink-0">
-                                    <path fill-rule="evenodd"
-                                          d="M9.528 1.718a.75.75 0 0 1 .162.819A8.97 8.97 0 0 0 9 6a9 9 0 0 0 9 9 8.97 8.97 0 0 0 3.463-.69.75.75 0 0 1 .981.98 10.503 10.503 0 0 1-9.694 6.46c-5.799 0-10.5-4.7-10.5-10.5 0-4.368 2.667-8.112 6.46-9.694a.75.75 0 0 1 .818.162Z"
-                                          clip-rule="evenodd"/>
-                                </svg>
-                                <span><strong>Glamping/Camping</strong> - Camp on the rim of a sunken fire pit and see the open
-                                skies stars at night, experience lodging in a Hogan (Navajo
-                                dwelling) or lodging in a massive bell tent.</span>
-                            </div>
+                        <li class="flex gap-3 items-start">
+                            <span class="text-sacred-south-400 font-bold flex-shrink-0">✓</span>
+                            <span class="text-sacred-east-100 text-sm">Survey boundary markers confirmed with Keith</span>
                         </li>
-                        <li><strong>Target Range</strong> - Release your work stresses; learn to fire arrows, throw
-                            knives and/or launch
-                            spears. Open target range with both Mesa and Mountain views.
+                        <li class="flex gap-3 items-start">
+                            <span class="text-sacred-south-400 font-bold flex-shrink-0">✓</span>
+                            <span class="text-sacred-east-100 text-sm">Access road created from Hwy 197</span>
+                        </li>
+                        <li class="flex gap-3 items-start">
+                            <span class="text-sacred-south-400 font-bold flex-shrink-0">✓</span>
+                            <span class="text-sacred-east-100 text-sm">Extensive sagebrush and juniper clearing underway</span>
+                        </li>
+                        <li class="flex gap-3 items-start">
+                            <span class="text-sacred-south-400 font-bold flex-shrink-0">✓</span>
+                            <span class="text-sacred-east-100 text-sm">SW corner target range area nearly cleared</span>
+                        </li>
+                        <li class="flex gap-3 items-start">
+                            <span class="text-sacred-south-400 font-bold flex-shrink-0">✓</span>
+                            <span class="text-sacred-east-100 text-sm">Garden bed area cleared and documented</span>
+                        </li>
+                        <li class="flex gap-3 items-start">
+                            <span class="text-sacred-south-400 font-bold flex-shrink-0">✓</span>
+                            <span class="text-sacred-east-100 text-sm">Corral road widened</span>
                         </li>
                     </ul>
                 </div>
-                <div class='flex border-2 p-4 bg-white rounded-lg'>
-                    <h2 id="contact" class="text-4xl font-bold text-teal-500 mb-4 text-shadow-black text-shadow-lg
-                               underline underline-offset-8">Contact Me:</h2>
-                    <form class="max-w-md mx-auto" aria-label="Contact form for Tag Along Construction">
-                        <div class="relative z-0 w-full mb-5 group">
+                <!-- Coming next -->
+                <div class="bg-sacred-north-700 border-2 border-sacred-south-400 rounded-lg p-6">
+                    <h3 class="text-xl font-bold text-sacred-south-400 mb-4">Coming Next</h3>
+                    <ul class="space-y-3">
+                        <li class="flex gap-3 items-start">
+                            <span class="text-sacred-west-400 font-bold flex-shrink-0">→</span>
+                            <span class="text-sacred-east-100 text-sm">T-post fence line completion around full perimeter</span>
+                        </li>
+                        <li class="flex gap-3 items-start">
+                            <span class="text-sacred-west-400 font-bold flex-shrink-0">→</span>
+                            <span class="text-sacred-east-100 text-sm">Sunken fire pit construction begins</span>
+                        </li>
+                        <li class="flex gap-3 items-start">
+                            <span class="text-sacred-west-400 font-bold flex-shrink-0">→</span>
+                            <span class="text-sacred-east-100 text-sm">Target range completion — targets and stands</span>
+                        </li>
+                        <li class="flex gap-3 items-start">
+                            <span class="text-sacred-west-400 font-bold flex-shrink-0">→</span>
+                            <span class="text-sacred-east-100 text-sm">Access road widening and grading — Phase 0.5</span>
+                        </li>
+                        <li class="flex gap-3 items-start">
+                            <span class="text-sacred-west-400 font-bold flex-shrink-0">→</span>
+                            <span class="text-sacred-east-100 text-sm">Raised garden bed construction — Phase 1</span>
+                        </li>
+                        <li class="flex gap-3 items-start">
+                            <span class="text-sacred-west-400 font-bold flex-shrink-0">→</span>
+                            <span class="text-sacred-east-100 text-sm">Permit and engineering process — Phase 2</span>
+                npm run dev        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="w-full bg-sacred-east-100 dark:bg-slate-700 py-12" id="contact">
+        <div class="container mx-auto max-w-screen-xl px-4">
+            <div class="flex flex-col md:flex-row gap-8">
+                <div class="md:w-1/2 border-2 p-6 bg-white rounded-lg dark:bg-slate-800 dark:border-slate-600">
+                    <h2 class="text-4xl font-bold text-sacred-west-500 mb-4 text-shadow-black text-shadow-lg underline underline-offset-8 dark:text-sacred-west-400">Follow the Build</h2>
+                    <p class="text-gray-700 dark:text-gray-200 mb-6">This project is being built and documented in real time. Reach out if you want to follow along, ask questions about the build process, or talk about future visit possibilities on the property.</p>
+                    <ul class="space-y-3 dark:text-gray-200">
+                        <li class="flex gap-2 items-start">
+                            <span class="w-2 h-2 rounded-full bg-sacred-west-500 mt-2 flex-shrink-0"></span>
+                            <span class="text-sm">Questions about the container home build process</span>
+                        </li>
+                        <li class="flex gap-2 items-start">
+                            <span class="w-2 h-2 rounded-full bg-sacred-west-500 mt-2 flex-shrink-0"></span>
+                            <span class="text-sm">Off-grid solar and water system planning</span>
+                        </li>
+                        <li class="flex gap-2 items-start">
+                            <span class="w-2 h-2 rounded-full bg-sacred-west-500 mt-2 flex-shrink-0"></span>
+                            <span class="text-sm">Future property experiences and visits</span>
+                        </li>
+                        <li class="flex gap-2 items-start">
+                            <span class="w-2 h-2 rounded-full bg-sacred-west-500 mt-2 flex-shrink-0"></span>
+                            <span class="text-sm">General questions about building in rural New Mexico</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="md:w-1/2 border-2 p-6 bg-white rounded-lg dark:bg-slate-800 dark:border-slate-600">
+                    <h2 class="text-4xl font-bold text-sacred-west-500 mb-6 text-shadow-black text-shadow-lg underline underline-offset-8 dark:text-sacred-west-400">Contact Me</h2>
+                    <form class="w-full" aria-label="Contact form for Tag Along Construction">
+                        <div class="relative z-0 w-full mb-6 group">
                             <input type="email" name="email" id="floating_email"
-                                   class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none  focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+                                   class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none focus:outline-none focus:ring-0 focus:border-sacred-west-500 peer dark:text-white dark:border-gray-600"
                                    placeholder=" " required/>
                             <label for="floating_email"
-                                   class="peer-focus:font-medium absolute text-sm text-gray-500 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto peer-focus:text-blue-600 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Email
-                                address</label>
+                                   class="peer-focus:font-medium absolute text-sm text-gray-500 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 peer-focus:text-sacred-west-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6 dark:text-gray-400">Email address</label>
                         </div>
                         <div class="grid md:grid-cols-2 md:gap-6">
-                            <div class="relative z-0 w-full mb-5 group">
+                            <div class="relative z-0 w-full mb-6 group">
                                 <input type="text" name="first_name" id="floating_first_name"
-                                       class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+                                       class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none focus:outline-none focus:ring-0 focus:border-sacred-west-500 peer dark:text-white dark:border-gray-600"
                                        placeholder=" " required/>
                                 <label for="floating_first_name"
-                                       class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">First
-                                    name</label>
+                                       class="peer-focus:font-medium absolute text-sm text-gray-500 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 peer-focus:text-sacred-west-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6 dark:text-gray-400">First name</label>
                             </div>
-                            <div class="relative z-0 w-full mb-5 group">
+                            <div class="relative z-0 w-full mb-6 group">
                                 <input type="text" name="last_name" id="floating_last_name"
-                                       class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+                                       class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none focus:outline-none focus:ring-0 focus:border-sacred-west-500 peer dark:text-white dark:border-gray-600"
                                        placeholder=" " required/>
                                 <label for="floating_last_name"
-                                       class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-blue-600 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Last
-                                    name</label>
+                                       class="peer-focus:font-medium absolute text-sm text-gray-500 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 peer-focus:text-sacred-west-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6 dark:text-gray-400">Last name</label>
                             </div>
                         </div>
-                        <div class="relative z-0 w-full mb-5 group">
-                            <label for="message" class="block mb-2 text-sm font-medium text-gray-900">Your
-                                message</label>
-                            <textarea name="message" id="message" rows="10"
-                                      class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 "
+                        <div class="relative z-0 w-full mb-6 group">
+                            <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Your message</label>
+                            <textarea name="message" id="message" rows="6"
+                                      class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-sacred-west-500 focus:border-sacred-west-500 dark:bg-slate-700 dark:border-slate-500 dark:text-white dark:placeholder-gray-400"
                                       placeholder="Leave a comment..."></textarea>
                         </div>
                         <button type="submit" aria-label="Submit contact form"
-                                class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center">
+                                class="text-white bg-sacred-west-500 hover:bg-sacred-west-600 focus:ring-4 focus:outline-none focus:ring-sacred-west-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center">
                             Submit
                         </button>
                     </form>
@@ -213,12 +508,33 @@
         </div>
     </section>
 </main>
+
+<!-- FOOTER -->
 <footer class="bg-gray-800 text-white py-6">
-    <div class="container mx-auto md:mx-auto px-4 text-center">
+    <div class="container mx-auto max-w-screen-xl px-4 text-center">
         <p class="text-sm">&copy; 2026 Tag Along Construction.</p>
         <p class="text-sm mt-2">Built in New Mexico</p>
     </div>
 </footer>
+
 <script type="module" src="/src/main.js"></script>
+<script>
+  let heroIndex = 0;
+  const heroTotal = 6;
+
+  function heroSlide(dir) {
+    heroIndex = (heroIndex + dir + heroTotal) % heroTotal;
+    heroGoTo(heroIndex);
+  }
+
+  function heroGoTo(index) {
+    heroIndex = index;
+    document.getElementById('heroSlides').style.transform = `translateX(-${index * 100}%)`;
+    document.querySelectorAll('.hero-dot').forEach((dot, i) => {
+      dot.classList.toggle('opacity-100', i === index);
+      dot.classList.toggle('opacity-40', i !== index);
+    });
+  }
+</script>
 </body>
 </html>
